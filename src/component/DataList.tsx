@@ -1,25 +1,23 @@
 import { DataItem } from "./DataItem";
 
-type Props = {
-  editable?: boolean;
-  horizontal?: boolean;
+interface Props {
+  createable?: boolean;
+  flex?: boolean;
   data: DataItemType[];
-};
+}
 export type DataItemType = { name: string; id: string };
 
-export function DataList({ data, editable, horizontal }: Props) {
+export function DataList({ data, createable, flex }: Props) {
   return (
     <div>
-      {data.map((item) => {
-        return (
-          <DataItem
-            key={item.id}
-            editable={editable}
-            item={item}
-            horizontal={horizontal}
-          />
-        );
-      })}
+      {data.map((item) => (
+        <DataItem
+          key={item.id}
+          createable={createable}
+          item={item}
+          flex={flex}
+        />
+      ))}
     </div>
   );
 }

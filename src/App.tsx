@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <div>vite</div>
-      <DataList data={mockData} editable horizontal />
+      <DataList data={mockData} createable flex />
     </div>
   );
 }

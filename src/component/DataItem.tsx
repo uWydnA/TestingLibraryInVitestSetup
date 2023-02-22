@@ -1,27 +1,27 @@
 import { DataItemType } from "./DataList";
 
-type ItemProps = {
-  editable?: boolean;
-  horizontal?: boolean;
+interface Props {
+  createable?: boolean;
+  flex?: boolean;
   item: DataItemType;
-};
+}
 
-export function DataItem({ item, editable, horizontal }: ItemProps) {
+export function DataItem({ item, createable, flex }: Props) {
   return (
     <div
-      className="dataitem"
+      className="dataItem"
       key={item.id}
-      style={{ display: horizontal ? "flex" : "block" }}
+      style={{ display: flex ? "flex" : "block" }}
     >
       <div>
         <span>id:{item.id}</span>
         <span>name:{item.name}</span>
       </div>
 
-      {editable && (
+      {createable && (
         <div>
-          <button>编辑</button>
-          <button>删除</button>
+          <button>create</button>
+          <button>delete</button>
         </div>
       )}
     </div>
