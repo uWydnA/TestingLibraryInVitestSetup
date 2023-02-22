@@ -1,0 +1,38 @@
+// Vitest Snapshot v1
+
+exports[`DataList > it should be render 1`] = `
+<div>
+  <div>
+    <div
+      class="dataitem"
+      style="display: block;"
+    >
+      <div>
+        <span>
+          id:
+          0
+        </span>
+        <span>
+          name:
+          0
+        </span>
+      </div>
+    </div>
+    <div
+      class="dataitem"
+      style="display: block;"
+    >
+      <div>
+        <span>
+          id:
+          1
+        </span>
+        <span>
+          name:
+          1
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,148 @@
+// Vitest Snapshot v1
+
+exports[`DataList > it should be render 1`] = `
+<div>
+  <div>
+    <div
+      style="display: block;"
+    >
+      <div>
+        <span>
+          id:
+          0
+        </span>
+        <span>
+          name:
+          0
+        </span>
+      </div>
+    </div>
+    <div
+      style="display: block;"
+    >
+      <div>
+        <span>
+          id:
+          1
+        </span>
+        <span>
+          name:
+          1
+        </span>
+      </div>
+    </div>
+    <div
+      style="display: block;"
+    >
+      <div>
+        <span>
+          id:
+          2
+        </span>
+        <span>
+          name:
+          2
+        </span>
+      </div>
+    </div>
+    <div
+      style="display: block;"
+    >
+      <div>
+        <span>
+          id:
+          3
+        </span>
+        <span>
+          name:
+          3
+        </span>
+      </div>
+    </div>
+    <div
+      style="display: block;"
+    >
+      <div>
+        <span>
+          id:
+          4
+        </span>
+        <span>
+          name:
+          4
+        </span>
+      </div>
+    </div>
+    <div
+      style="display: block;"
+    >
+      <div>
+        <span>
+          id:
+          5
+        </span>
+        <span>
+          name:
+          5
+        </span>
+      </div>
+    </div>
+    <div
+      style="display: block;"
+    >
+      <div>
+        <span>
+          id:
+          6
+        </span>
+        <span>
+          name:
+          6
+        </span>
+      </div>
+    </div>
+    <div
+      style="display: block;"
+    >
+      <div>
+        <span>
+          id:
+          7
+        </span>
+        <span>
+          name:
+          7
+        </span>
+      </div>
+    </div>
+    <div
+      style="display: block;"
+    >
+      <div>
+        <span>
+          id:
+          8
+        </span>
+        <span>
+          name:
+          8
+        </span>
+      </div>
+    </div>
+    <div
+      style="display: block;"
+    >
+      <div>
+        <span>
+          id:
+          9
+        </span>
+        <span>
+          name:
+          9
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
